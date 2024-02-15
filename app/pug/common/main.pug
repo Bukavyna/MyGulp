@@ -1,12 +1,93 @@
-img
-ul
-    li 1
-    li 2
-    li 3
-    li 4
-p test
-h2 My project
-h3 Hello Pavel
-h3 How are you?
-p Test
-img#img
+main
+    h2.h2-1 How Dreamshare works?
+    section.dreamshare
+        .dreamshare__container
+            img.img_step_1(src='../../images/Bitmap (7).png', alt='Your Image')
+            .dreamshare__box
+                .dreamshare__button
+                    a.dreamshare__button_text(href='#') STEP 1
+                p.dreamshare__text Sed leo enim, condimentum
+                h4.dreamshare__text-2
+                    | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+        .dreamshare__container
+            img.img_step_2(src='../../images/Bitmap (8).png', alt='Your Image')
+            .dreamshare__box.dreamshare__box_center
+                .dreamshare__button
+                    a.dreamshare__button_text(href='#') STEP 2
+                p.dreamshare__text.dreamshare__text_center Morbi velit risus
+                h4.dreamshare__text-2.dreamshare__text-2_center
+                    | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+        .dreamshare__container
+            img.img_step_3(src='../../images/Bitmap (9).png', alt='Your Image')
+            .dreamshare__box
+                .dreamshare__button
+                    a.dreamshare__button_text(href='#') STEP 3
+                p.dreamshare__text Sed leo enim, condimentum
+                p.dreamshare__text-2
+                    | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+    h2.h2-2 Meet a partner for your best holiday
+    section.partner-for-holiday
+        .partner-container__box.partner-container__box_1
+            .partner-container__img-box
+                img.partner-container__img(src='../../images/Bitmap-mob-5.png', alt='...')
+                .partner-container__img-box-mini.background-5-5
+                    img(src='../../images/Bitmap-mob-5_5.png')
+            h4 Bradley Hunter
+            p.dreamshare__text-2 Based in Chicago. I love playing tennis and loud music.
+        .partner-container__box.partner-container__box_2
+            .partner-container__img-box
+                img.partner-container__img(src='../../images/Bitmap-mob-6.png', alt='...')
+                .partner-container__img-box-mini.background-6-6
+                    img(src='../../images/Bitmap-mob-6_6.png')
+            h4 Diana Wells
+            p.dreamshare__text-2
+                | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+        .partner-container__box.partner-container__box_3
+            .partner-container__img-box
+                img.partner-container__img(src='../../images/Bitmap-mob-7.png', alt='...')
+                .partner-container__img-box-mini.background-7-7
+                    img(src='../../images/Bitmap-mob-7_7.png')
+            h4 Marie Bennett
+            p.dreamshare__text-2 Currently living in Colorado. Lover of art, languages and travelling.
+        .partner-container__box.partner-container__box_4
+            .partner-container__img-box
+                img.partner-container__img(src='../../images/Bitmap-mob-8.png', alt='...')
+                .partner-container__img-box-mini.background-8-8
+                    img(src='../../images/Bitmap-mob-8_8.png')
+            h4 Christopher Pierce
+            p.dreamshare__text-2 Star Wars fanatic. I have a persistent enthusiasm to create new things.
+        .header__button_box
+            button.header__button_text(href='#')
+                h4 See other partners
+    h2.h2-3 Discover holiday activity ideas
+    section.discover
+        .discover-container
+            .discover__box
+                img(src='../../images/Sports.png')
+                h2 Sports and Activis
+            .discover__box
+                img(src='../../images/Wellness.png')
+                h2 Wellness and Health
+            .discover__box
+                img(src='../../images/Extreme-Sports.png')
+                h2 Extreme Sports and Expeditions
+            .discover__box
+                img(src='../../images/Games.png')
+                h2 Games
+            .discover__box.discover__box_big
+                img(src='../../images/Culture-Education.png')
+        .discover__box.discover__box_big
+            img(src='../../images/Engomet-Relaxation.png')
+            h2 Enjomet and Relaxation
+        .discover__box
+            img(src='../../images/Trevelling.png')
+            h2 Trevelling
+        h2.form-container__name Crate your holiday activity
+        .form-container
+            form(method='post', enctype='multipart/form-data')
+                p Hi! What are your holiday interests?
+                .form-container__box
+                    .form-container__input
+                        input(type='text', name='Your-interests', placeholder='Enter your insterests')
+                    button.form-button__text.header__button_box(type='submit') Search partners
+hr

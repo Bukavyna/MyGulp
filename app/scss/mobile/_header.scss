@@ -1,0 +1,139 @@
+header {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.header__information_text {
+	text-align: center;
+	font-family: Roboto;
+
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+h4 {
+	width: 242px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.header__button_box {
+	width: 280px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #FF4E50;
+	margin-top: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.header__box {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.header__box {
+
+	img {
+		position: relative;
+		width: 320px;
+		height: 550px;
+		background-color: #D1D0CD;
+		opacity: 0.8;
+	}
+
+	.nav {
+		position: absolute;
+		width: 153px;
+		height: 36px;
+		top: 20px;
+		left: 84px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.nav__text {
+			color: white;
+			font-family: Montserrat, sans-serif;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+
+		.nav__button {
+			width: 90px;
+			height: 36px;
+			border: 2px solid white;
+			border-radius: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	h3 {
+		position: absolute;
+		top: 155px;
+		left: 90px;
+		font-family: Montserrat;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		color: #FFFFFF;
+	}
+
+	.header__information {
+		position: absolute;
+		width: 280px;
+		top: 157px;
+		left: 20px;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		h1 {
+			text-align: center;
+			margin-top: 48px;
+
+			font-family: Montserrat;
+			font-size: 30px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+		.header__information_text {
+			width: 260px;
+			margin-top: 7px;
+		}
+
+		.header__button_box {
+			width: 280px;
+			height: 40px;
+			border-radius: 20px;
+			background-color: #FF4E50;
+			margin-top: 16px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+
+			h4 {
+				color: white;
+			}
+		}
+	}
+}
+
