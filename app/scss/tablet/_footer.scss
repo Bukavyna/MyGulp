@@ -1,9 +1,63 @@
-.hello {
-  font-size: 50px;
-}
+@media screen and (min-width: 768px) and (max-width: 1339px) {
 
-.img1 {
-  width: 500px;
-  height: 200px;
-  background-image: url("../../images/space.jpg");
+  footer {
+    width: 768px;
+    padding: 40px 40px 20px 40px;
+    text-align: left;
+    margin: auto;
+
+    .footer-box {
+      width: 688px;
+      display: flex;
+      justify-content: space-between;
+
+      .footer-box__logo {
+        margin-top: -3px;
+      }
+
+      .footer-nav {
+        margin-top: 12px;
+        margin-left: -6px;
+        width: 124px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+      }
+
+      .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: -2px;
+        margin-left: -13px;
+
+        .footer-menu__company {
+          margin-top: 0;
+          text-align: left;
+        }
+      }
+
+      .footer-box__partners {
+        margin-top: -2px;
+        margin-left: -66px;
+      }
+
+      .footer-box__designed {
+        text-align: end;
+        margin-top: -6px;
+
+        .footer-box__name {
+          margin-top: 5px;
+
+          color: #CCC;
+          font-family: Montserrat;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
 }

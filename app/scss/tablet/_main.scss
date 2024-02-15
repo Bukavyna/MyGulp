@@ -1,32 +1,149 @@
-img {
-	width: 300px;
-	height: 100px;
-	background-image: url("../../images/tree-736885_1280.jpg");
-	background-size: cover;
-}
+@media screen and (min-width: 768px) and (max-width: 1339px) {
 
-ul {
-	list-style-type: none;
-}
+	body {
+		width: 768px;
+		margin: auto;
+	}
 
-li {
-	font-size: 30px;
-}
+	main {
+		width: 768px;
+	}
 
-p {
-	font-size: 20px;
-	background-color: blue;
-}
+	.h2-1 {
+		margin-top: 94px;
+	}
 
-h3 {
-	width: 350px;
-	background-color: bisque;
-	font-size: 50px;
-	margin-top: 10px;
-}
+	.dreamshare {
+		margin: 35px auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-#img {
-	width: 350px;
-	height: 200px;
-	border-radius: 20px;
+	.dreamshare__container {
+		width: 236px;
+		height: 400px;
+
+		img {
+			width: 236px;
+			height: 400px;
+			object-fit: cover;
+		}
+
+		.dreamshare__box {
+			width: 236px;
+			margin-top: 140px;
+
+			.dreamshare__text-2 {
+				width: 187px;
+				margin-top: 29px;
+			}
+		}
+
+		.dreamshare__box_center {
+			margin-top: 159px;
+
+			.dreamshare__text_center {
+				width: 150px;
+				margin-top: 13px;
+			}
+
+			.dreamshare__text-2_center {
+				margin-top: 23px;
+			}
+		}
+	}
+
+	.h2-2 {
+		margin-top: 84px;
+	}
+
+	.partner-for-holiday {
+		width: 513px;
+		display: flex;
+		flex-wrap: wrap;
+
+		.partner-container__box {
+			margin-top: 21px;
+		}
+
+		.header__button_box {
+			width: 180px;
+			margin: 23px auto;
+
+			h4 {
+				width: 150px;
+				margin: auto;
+			}
+		}
+	}
+
+
+	.h2-3 {
+		width: 500px;
+		margin-top: 71px;
+		margin-bottom: 35px;
+	}
+
+	.discover {
+
+		.discover-container {
+			width: 748px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.discover__box {
+				width: 236px;
+				height: 310px;
+				margin-bottom: 19px;
+
+				img {
+					width: 236px;
+					height: 310px;
+				}
+			}
+
+			.discover__box_big {
+				width: 492px;
+				height: 310px;
+
+				img {
+					width: 492px;
+					height: 310px;
+				}
+			}
+		}
+
+		.form-container__name {
+			margin-top: 78px;
+		}
+
+		.form-container {
+			width: 482px;
+			height: 158px;
+			margin: auto;
+			margin-top: 43px;
+
+			p {
+				margin: auto;
+				text-align: center;
+			}
+
+			.form-container__box {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 10px;
+
+				input {
+					width: 299px;
+				}
+
+				.header__button_box {
+					width: 172px;
+					margin-top: 15px;
+				}
+			}
+		}
+	}
 }

@@ -1,13 +1,67 @@
-.header {
-	color: blue;
-	background-color: yellow;
+@media screen and (min-width: 768px) and (max-width: 1339px) {
+
+body {
+	width: 768px;
+	margin: auto;
 }
 
-#page {
-	font-size: 25px;
-	color: yellow;
+header {
+	width: 768px;
 }
 
-.hi {
-	background-color: white;
+.header__information_text {
+	font-size: 24px;
+}
+
+.header__button_box {
+	width: 225px;
+}
+
+.header__box {
+	img {
+		position: relative;
+		//object-fit: cover;
+		width: 768px;
+		height: 700px;
+	}
+
+	h3 {
+		top: 46px;
+		left: 48px;
+	}
+
+	.nav {
+		top: 39px;
+		left: 568px;
+	}
+
+	.header__information {
+		width: 470px;
+		top: 218px;
+		left: 149px;
+
+
+		h1 {
+			width: 470px;
+			color: #FFF;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 52px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			margin-top: 5px;
+		}
+
+		.header__information_text {
+			width: 396px;
+			margin-top: 29px;
+		}
+
+		.header__button_box {
+			width: 225px;
+			margin-top: 33px;
+		}
+	}
+}
 }

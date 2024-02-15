@@ -1,0 +1,74 @@
+@import "../mobile/mixins";
+@import "../mobile/variables";
+
+footer {
+	width: 320px;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+
+	.footer-box__logo {
+		color: #FF4E50;
+		font-family: $mobile-font-family2;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.footer-menu__company {
+		color: #444;
+		text-align: center;
+		font-family: $mobile-font-family2;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		margin-top: 13px;
+	}
+
+	.footer-nav {
+		margin: 0 auto;
+		width: 200px;
+		text-align: center;
+		font-family: $mobile-font-family1;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 26px;
+
+		a {
+			margin-left: 5px;
+			margin-right: 5px;
+			color: #999;
+		}
+	}
+
+	.footer-box__partners {
+		color: #444;
+		text-align: center;
+		font-family: $mobile-font-family2;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		margin-top: 6px;
+	}
+
+	.footer-box__designed {
+		color: #CCC;
+		font-family: $mobile-font-family2;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 1px;
+		margin-top: 14px;
+	}
+
+	img {
+		margin-top: 7px;
+		width: 110px;
+		height: 24px;
+	}
+}

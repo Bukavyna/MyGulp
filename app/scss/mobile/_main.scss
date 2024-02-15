@@ -1,3 +1,6 @@
+@import "../mobile/mixins";
+@import "../mobile/variables";
+
 main {
 	width: 320px;
 	text-align: center;
@@ -12,7 +15,7 @@ h2 {
 
 	color: #444;
 	text-align: center;
-	font-family: Montserrat;
+	font-family: $mobile-font-family2;
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 700;
@@ -20,7 +23,7 @@ h2 {
 }
 
 .dreamshare__text-2 {
-	font-family: Roboto;
+	font-family: $mobile-font-family1;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 300;
@@ -29,52 +32,27 @@ h2 {
 
 
 .dreamshare__container {
-	position: relative;
-	width: 300px;
-	height: 240px;
-	margin-bottom: 10px;
-	color: white;
+	@include dreamshare__container_mobile();
 
 	img {
-		width: 300px;
-		height: 240px;
-		background-size: cover;
+		@include img-size_mobile();
 	}
 
 	.dreamshare__box {
-		position: absolute;
-		width: 250px;
-		height: 130px;
-		top: 64px;
-		left: 20px;
+    @include dreamshare__box_mobile();
 
 		.dreamshare__button {
-			width: 70px;
-			height: 20px;
-			border-radius: 10px;
-			background-color: #FF4E50;
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			@include dreamshare__button_mobile();
 
 			.dreamshare__button_text {
-				font-family: Montserrat;
-				font-size: 10px;
-				font-style: normal;
-				font-weight: 400;
-				line-height: normal;
-				letter-spacing: 2px;
-				color: white;
+				font-family: $mobile-font-family2;
+				@include dreamshare__button_text-mobile();
 			}
 		}
 
 		.dreamshare__text {
-			font-family: Montserrat;
-			font-size: 24px;
-			font-style: normal;
-			font-weight: 700;
-			line-height: 15px;
-			margin-top: 45px;
+			font-family: $mobile-font-family2;
+			@include dreamshare__text_mobile();
 		}
 
 		.dreamshare__text-2 {
@@ -106,20 +84,13 @@ h2 {
 	margin: 36px auto;
 
 	.partner-container__box {
-		width: 236px;
-		margin: 17px auto;
+		@include partner-container__box-mobile();
 
 		.partner-container__img-box {
-			position: relative;
-			width: 124px;
-			height: 124px;
-			margin: auto;
+		@include partner-container__img-box-mobile();
 
 			.partner-container__img {
-				width: 124px;
-				height: 124px;
-				border-radius: 62px;
-				margin: auto;
+			@include partner-container__img-mobile();
 			}
 		}
 
@@ -244,7 +215,7 @@ h2 {
 		margin-top: 9px;
 
 		color: #666;
-		font-family: Roboto, sans-serif;
+		font-family: $mobile-font-family1;
 		font-size: 18px;
 		font-style: normal;
 		font-weight: 300;
@@ -260,12 +231,13 @@ h2 {
 	}
 
 	button {
-		color: #FFFFFF;
+		@include btn-mobile-style();
+
 		margin-top: 10px;
 		margin-bottom: 51px;
 
 		.form-button__text {
-			font-family: Montserrat;
+			font-family: $mobile-font-family2;
 			font-size: 14px;
 			font-style: normal;
 			font-weight: 700;
