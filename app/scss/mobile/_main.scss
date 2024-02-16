@@ -1,9 +1,11 @@
 @import "../mobile/mixins";
 @import "../mobile/variables";
 
+// MOBILE MAIN =====================
+
 main {
 	width: 320px;
-	text-align: center;
+	text-align: left;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: auto;
@@ -18,7 +20,7 @@ h2 {
 	font-family: $mobile-font-family2;
 	font-size: 22px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: $mobile-font-weight7;
 	line-height: normal;
 }
 
@@ -26,7 +28,7 @@ h2 {
 	font-family: $mobile-font-family1;
 	font-size: 14px;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: $mobile-font-weight3;
 	line-height: 14px;
 }
 
@@ -218,7 +220,7 @@ h2 {
 		font-family: $mobile-font-family1;
 		font-size: 18px;
 		font-style: normal;
-		font-weight: 300;
+		font-weight: $mobile-font-weight3;
 		line-height: 14px;
 	}
 
@@ -240,7 +242,7 @@ h2 {
 			font-family: $mobile-font-family2;
 			font-size: 14px;
 			font-style: normal;
-			font-weight: 700;
+			font-weight: $mobile-font-weight7;
 			line-height: normal;
 		}
 	}

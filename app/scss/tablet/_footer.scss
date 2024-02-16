@@ -1,10 +1,15 @@
+@import "../tablet/mixins";
+@import "../tablet/variables";
+
+// TABLET FOOTER =======================
+
 @media screen and (min-width: 768px) and (max-width: 1339px) {
 
   footer {
-    width: 768px;
+    width: $tablet-width;
     padding: 40px 40px 20px 40px;
     text-align: left;
-    margin: auto;
+    margin: 0 auto;
 
     .footer-box {
       width: 688px;
@@ -50,10 +55,10 @@
           margin-top: 5px;
 
           color: #CCC;
-          font-family: Montserrat;
+          font-family: $tablet-font-family2;
           font-size: 10px;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $tablet-font-weight7;
           line-height: normal;
           letter-spacing: 1px;
         }

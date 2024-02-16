@@ -1,0 +1,69 @@
+@import "../desktop/mixins";
+@import "../desktop/variables";
+
+// DESKTOP HEADER =====================
+
+@media screen and (min-width: 1340px) {
+
+	header {
+		width: $desktop-width-max;
+		margin: 0 auto;
+	}
+
+	.header__information_text {
+		font-size: 24px;
+	}
+
+	.header__button_box {
+		width: 225px;
+	}
+
+	.header__box {
+		img {
+			position: relative;
+			object-fit: cover;
+			width: $desktop-width-max;
+			height: 700px;
+		}
+
+		h3 {
+			top: 47px;
+			left: 247px;
+		}
+
+		.nav {
+			top: 41px;
+			left: 995px;
+		}
+
+		.header__information {
+			width: 470px;
+			top: 217px;
+			left: 485px;
+
+
+			h1 {
+				width: 470px;
+				color: #FFF;
+				text-align: center;
+				font-family: $desktop-font-family2;
+				font-size: 52px;
+				font-style: normal;
+				font-weight: $desktop-font-weight7;
+				line-height: normal;
+				margin-top: 5px;
+			}
+
+			.header__information_text {
+				width: 396px;
+				margin-top: 28px;
+			}
+
+			.header__button_box {
+				width: 225px;
+				margin-top: 36px;
+			}
+		}
+	}
+
+}

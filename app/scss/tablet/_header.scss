@@ -1,12 +1,13 @@
+@import "../tablet/mixins";
+@import "../tablet/variables";
+
+// TABLET HEADER =======================
+
 @media screen and (min-width: 768px) and (max-width: 1339px) {
 
-body {
-	width: 768px;
-	margin: auto;
-}
-
 header {
-	width: 768px;
+	width: $tablet-width;
+	margin: 0 auto;
 }
 
 .header__information_text {
@@ -20,8 +21,7 @@ header {
 .header__box {
 	img {
 		position: relative;
-		//object-fit: cover;
-		width: 768px;
+		width: $tablet-width;
 		height: 700px;
 	}
 
@@ -45,10 +45,10 @@ header {
 			width: 470px;
 			color: #FFF;
 			text-align: center;
-			font-family: Montserrat;
+			font-family: $tablet-font-family2;
 			font-size: 52px;
 			font-style: normal;
-			font-weight: 700;
+			font-weight: $tablet-font-weight7;
 			line-height: normal;
 			margin-top: 5px;
 		}

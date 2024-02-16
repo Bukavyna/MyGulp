@@ -1,0 +1,53 @@
+@import "../desktop/mixins";
+@import "../desktop/variables";
+
+// DESKTOP FOOTER =====================
+
+@media screen and (min-width: 1340px) {
+
+	footer {
+		width: $desktop-width-max;
+		padding: 40px 250px 20px 250px;
+		text-align: left;
+		margin: auto;
+
+		.footer-box {
+			width: $desktop-width-main;
+			display: flex;
+			justify-content: space-between;
+
+			.footer-box__logo {
+				margin-top: -2px;
+			}
+
+			.footer-nav {
+				margin-left: -4px;
+				margin-top: 11px;
+				width: 130px;
+				display: flex;
+				flex-direction: column;
+				text-align: start;
+			}
+
+			.footer-menu {
+				margin-left: -174px;
+
+
+				.footer-menu__company {
+					margin-top: 0;
+					text-align: left;
+				}
+			}
+
+			.footer-box__partners {
+				margin-top: 0;
+				margin-left: -176px;
+			}
+
+			.footer-box__designed {
+				text-align: end;
+				margin-top: 0;
+			}
+		}
+	}
+}

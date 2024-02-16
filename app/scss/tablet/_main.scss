@@ -1,12 +1,13 @@
+@import "../tablet/mixins";
+@import "../tablet/variables";
+
+// TABLET MAIN =======================
+
 @media screen and (min-width: 768px) and (max-width: 1339px) {
 
-	body {
-		width: 768px;
-		margin: auto;
-	}
-
 	main {
-		width: 768px;
+		width: $tablet-width;
+		margin: auto;
 	}
 
 	.h2-1 {
@@ -21,13 +22,10 @@
 	}
 
 	.dreamshare__container {
-		width: 236px;
-		height: 400px;
+		@include dreamshare__container_tablet;
 
 		img {
-			width: 236px;
-			height: 400px;
-			object-fit: cover;
+			@include dreamshare__container_tablet;
 		}
 
 		.dreamshare__box {
@@ -94,23 +92,19 @@
 			justify-content: space-between;
 
 			.discover__box {
-				width: 236px;
-				height: 310px;
+				@include discover__box_tablet;
 				margin-bottom: 19px;
 
 				img {
-					width: 236px;
-					height: 310px;
+					@include discover__box_tablet;
 				}
 			}
 
 			.discover__box_big {
-				width: 492px;
-				height: 310px;
+				@include discover__box_big_tablet;
 
 				img {
-					width: 492px;
-					height: 310px;
+					@include discover__box_big_tablet;
 				}
 			}
 		}
@@ -122,11 +116,10 @@
 		.form-container {
 			width: 482px;
 			height: 158px;
-			margin: auto;
-			margin-top: 43px;
+			margin: 43px auto 0;
 
 			p {
-				margin: auto;
+				margin: 0 auto;
 				text-align: center;
 			}
 

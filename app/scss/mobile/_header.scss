@@ -1,6 +1,8 @@
 @import "../mobile/mixins";
 @import "../mobile/variables";
 
+// MOBILE HEADER =====================
+
 header {
 	width: 320px;
 	margin: 0 auto;
@@ -12,7 +14,7 @@ header {
 
 	font-size: 19px;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: $mobile-font-weight3;
 	line-height: 25px;
 }
 
@@ -21,7 +23,7 @@ h4 {
 	font-family: $mobile-font-family2;
 	font-size: 14px;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: $mobile-font-weight7;
 	line-height: normal;
 }
 
@@ -65,10 +67,10 @@ h4 {
 
 		.nav__text {
 			color: white;
-			font-family: Montserrat, sans-serif;
+			font-family: $mobile-font-family2;
 			font-size: 14px;
 			font-style: normal;
-			font-weight: 400;
+			font-weight: $mobile-font-weight4;
 			line-height: normal;
 		}
 
@@ -90,7 +92,7 @@ h4 {
 		font-family: $mobile-font-family2;
 		font-size: 20px;
 		font-style: normal;
-		font-weight: 700;
+		font-weight: $mobile-font-weight7;
 		line-height: normal;
 		color: #FFFFFF;
 	}
@@ -113,7 +115,7 @@ h4 {
 			font-family: $mobile-font-family2;
 			font-size: 30px;
 			font-style: normal;
-			font-weight: 700;
+			font-weight: $mobile-font-weight7;
 			line-height: normal;
 		}
 

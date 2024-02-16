@@ -1,0 +1,16 @@
+// TABLET MIXINS =======================
+
+@mixin dreamshare__container_tablet {
+	width: 236px;
+	height: 400px;
+}
+
+@mixin discover__box_tablet {
+	width: 236px;
+	height: 310px;
+}
+
+@mixin discover__box_big_tablet {
+	width: 492px;
+	height: 310px;
+}

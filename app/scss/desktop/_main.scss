@@ -1,0 +1,182 @@
+@import "../desktop/mixins";
+@import "../desktop/variables";
+
+// DESKTOP MAIN =====================
+
+@media screen and (min-width: 1340px) {
+
+	main {
+		width: $desktop-width-main;
+		margin: auto;
+	}
+
+	.h2-1 {
+		margin-top: 89px;
+		margin-bottom: 37px;
+		font-size: 26px;
+	}
+
+	.dreamshare {
+		width: $desktop-width-main;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.dreamshare__container {
+		@include dreamshare__container_desktop;
+
+		img {
+			@include dreamshare__container_desktop;
+		}
+
+		.dreamshare__box {
+			width: 236px;
+			margin-top: 155px;
+			left: 23px;
+
+			.dreamshare__text {
+				margin-top: 22px;
+				line-height: 26px;
+			}
+		}
+
+		.dreamshare__box_center {
+
+			.dreamshare__text-2_center {
+				margin-top: 16px;
+			}
+		}
+	}
+
+	.h2-2 {
+		font-size: 26px;
+		margin-top: 78px;
+		margin-bottom: -21px;
+	}
+
+	.partner-for-holiday {
+		width: 960px;
+		display: flex;
+		flex-wrap: wrap;
+
+		.partner-container__box {
+			width: 221px;
+			justify-content: flex-start;
+
+			h4 {
+				width: 222px;
+			}
+
+			.dreamshare__text-2 {
+				margin-top: 26px;
+			}
+		}
+
+		.partner-container__box_1 {
+			order: 0;
+		}
+
+		.partner-container__box_2 {
+			order: 3;
+		}
+
+		.partner-container__box_3 {
+			order: 2;
+		}
+
+		.partner-container__box_4 {
+			order: 4;
+		}
+
+
+		.header__button_box {
+			width: 180px;
+			margin: 21px auto;
+			order: 5;
+
+			h4 {
+				width: 140px;
+				margin: auto;
+			}
+		}
+	}
+
+
+	.h2-3 {
+		width: 440px;
+		margin-top: 69px;
+		margin-bottom: 34px;
+		font-size: 26px;
+	}
+
+	.discover {
+
+		.discover-container {
+			margin: auto;
+			width: $desktop-width-main;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.discover__box {
+				width: 300px;
+				height: 310px;
+				margin-bottom: 20px;
+
+				h2 {
+					width: 350px;
+				}
+
+				img {
+					width: 300px;
+					height: 310px;
+				}
+			}
+
+			.discover__box_big {
+				width: 620px;
+				height: 310px;
+
+				img {
+					width: 620px;
+					height: 310px;
+				}
+			}
+		}
+
+		.form-container__name {
+			margin-top: 73px;
+			font-size: 26px;
+		}
+
+		.form-container {
+			width: 482px;
+			height: 158px;
+			margin: auto;
+			margin-top: 41px;
+			margin-bottom: 41px;
+
+			p {
+				margin: auto;
+				text-align: center;
+			}
+
+			.form-container__box {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 13px;
+
+				input {
+					width: 299px;
+				}
+
+				.form-button__text {
+					width: 172px;
+					margin-top: 13px;
+				}
+			}
+		}
+	}
+}
